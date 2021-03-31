@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ff830e8-5fda-49b6-b940-761d09e8882d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Team{5}_Selenium_HW2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Team{5}_Selenium_HW2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Team{5}_Selenium_HW2/homework/Amazon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/amazon/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/amazon/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/amazon/TestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/amazon/TestHomePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +22,20 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1qVU6rXt7avSb6yxvVsKC36nUkh" />
   <component name="ProjectViewState">
@@ -29,7 +46,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WDE_Core_Selenium_2021/lib/selenium-java-3.141.59/libs/byte-buddy-1.8.15.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WDE_Core_Selenium_2021/lib/selenium-chrome-driver-3.141.59.jar" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -37,6 +54,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lamar\Desktop\Sami\Team-5-_Selenium_HW2\resources\drivers\windows" />
       <recent name="$PROJECT_DIR$/resources/drivers/windows" />
       <recent name="$PROJECT_DIR$/resources/drivers/mac" />
     </key>
@@ -44,8 +62,9 @@
       <recent name="$PROJECT_DIR$/.idea/resources/drivers/mac" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Amazon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestHomePage">
+    <configuration name="Amazon" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="MAIN_CLASS_NAME" value="homework.Amazon" />
       <module name="Team{5}_Selenium_HW2" />
       <extension name="coverage">
@@ -58,9 +77,110 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestHomePage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Team{5}_Selenium_HW2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="amazon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="amazon" />
+      <option name="MAIN_CLASS_NAME" value="amazon.TestHomePage" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHomePage.testBestSellerDepartmentList" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Team{5}_Selenium_HW2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="amazon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="amazon" />
+      <option name="MAIN_CLASS_NAME" value="amazon.TestHomePage" />
+      <option name="METHOD_NAME" value="testBestSellerDepartmentList" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHomePage.testBestSellerVideoGames" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Team{5}_Selenium_HW2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="amazon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="amazon" />
+      <option name="MAIN_CLASS_NAME" value="amazon.TestHomePage" />
+      <option name="METHOD_NAME" value="testBestSellerVideoGames" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHomePage.testBestSellers" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Team{5}_Selenium_HW2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="amazon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="amazon" />
+      <option name="MAIN_CLASS_NAME" value="amazon.TestHomePage" />
+      <option name="METHOD_NAME" value="testBestSellers" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHomePage.testScrollDownAction" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Team{5}_Selenium_HW2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="amazon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="amazon" />
+      <option name="MAIN_CLASS_NAME" value="amazon.TestHomePage" />
+      <option name="METHOD_NAME" value="testScrollDownAction" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Amazon" />
+      <item itemvalue="TestNG.TestHomePage.testBestSellers" />
+      <item itemvalue="TestNG.TestHomePage" />
+      <item itemvalue="TestNG.TestHomePage.testBestSellerDepartmentList" />
+      <item itemvalue="TestNG.TestHomePage.testScrollDownAction" />
+      <item itemvalue="TestNG.TestHomePage.testBestSellerVideoGames" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Amazon" />
+        <item itemvalue="TestNG.TestHomePage" />
+        <item itemvalue="TestNG.TestHomePage.testBestSellerVideoGames" />
+        <item itemvalue="TestNG.TestHomePage.testBestSellerDepartmentList" />
+        <item itemvalue="TestNG.TestHomePage.testScrollDownAction" />
+        <item itemvalue="TestNG.TestHomePage.testBestSellers" />
       </list>
     </recent_temporary>
   </component>
@@ -86,5 +206,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Team_5__Selenium_HW2$Amazon.ic" NAME="Amazon Coverage Results" MODIFIED="1617173153556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>amazon.*</FILTER>
+    </SUITE>
   </component>
 </project>
