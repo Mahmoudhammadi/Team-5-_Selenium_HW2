@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1ff830e8-5fda-49b6-b940-761d09e8882d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Team{5}_Selenium_HW2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Team{5}_Selenium_HW2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Team{5}_Selenium_HW2/homework/Amazon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/amazon/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/amazon/BaseClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/amazon/TestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/amazon/TestHomePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

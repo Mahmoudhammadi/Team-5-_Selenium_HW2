@@ -53,15 +53,15 @@ public class TestHomePage extends BaseClass {
         String actualBuy = buy2.getText();
         String expectedBuy= "Kindle";
     }
-//    @Test
-//    public void testManage(){
-//        WebElement manage=driver.findElement(By.cssSelector("#nav-subnav > a:nth-child(9) > span"));
-//        manage.click();
-//        WebElement manage2= driver.findElement(By.xpath("//*[@id=\"a-page\"]/div[1]/div[1]/div/a/i"));
-//        String actualManage = manage2.getText();
-//        String expectedManage="";
-//        Assert.assertEquals(actualManage,expectedManage);
-//    }
+    @Test
+    public void testManage(){
+        WebElement manage=driver.findElement(By.cssSelector("#nav-subnav > a:nth-child(9) > span"));
+        manage.click();
+        WebElement manage2= driver.findElement(By.xpath("//*[@id=\"a-page\"]/div[1]/div[1]/div/a/i"));
+        String actualManage = manage2.getText();
+        String expectedManage="Amazon";
+        Assert.assertEquals(actualManage,expectedManage);
+   }
 //
 //
 
