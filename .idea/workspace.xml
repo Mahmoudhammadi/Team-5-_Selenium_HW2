@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ff830e8-5fda-49b6-b940-761d09e8882d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/drivers/mac/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/drivers/windows/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/amazon/BaseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/amazon/TestHomeWorkAmazon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Team{5}_Selenium_HW2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Team{5}_Selenium_HW2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Team{5}_Selenium_HW2/homework/Amazon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/amazon/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/amazon/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/amazon/TestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/amazon/TestHomePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +21,38 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="0320NY_krimo" />
+                    <option name="lastUsedInstant" value="1617172373" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1617172372" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="ProjectId" id="1qVU6rXt7avSb6yxvVsKC36nUkh" />
   <component name="ProjectViewState">
@@ -35,7 +63,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/drivers/windows" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/drivers/mac" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -43,16 +71,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/drivers/windows" />
       <recent name="$PROJECT_DIR$/resources/drivers/mac" />
+      <recent name="$PROJECT_DIR$/resources/drivers/windows" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/.idea/resources/drivers/mac" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Amazon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.Amazon" />
+  <component name="RunManager" selected="TestNG.TestHomePage.testAmazonMusicFooter">
+    <configuration name="TestHomePage.LanguageButton" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Team{5}_Selenium_HW2" />
       <extension name="coverage">
         <pattern>
@@ -60,13 +87,95 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="amazon" />
+      <option name="MAIN_CLASS_NAME" value="amazon.TestHomePage" />
+      <option name="METHOD_NAME" value="LanguageButton" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHomePage.TestAmazonHome" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Team{5}_Selenium_HW2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="amazon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="amazon" />
+      <option name="MAIN_CLASS_NAME" value="amazon.TestHomePage" />
+      <option name="METHOD_NAME" value="TestAmazonHome" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHomePage.TestDropDown" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Team{5}_Selenium_HW2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="amazon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="amazon" />
+      <option name="MAIN_CLASS_NAME" value="amazon.TestHomePage" />
+      <option name="METHOD_NAME" value="TestDropDown" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHomePage.TestFindAGift" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Team{5}_Selenium_HW2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="amazon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="amazon" />
+      <option name="MAIN_CLASS_NAME" value="amazon.TestHomePage" />
+      <option name="METHOD_NAME" value="TestFindAGift" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHomePage.testAmazonMusicFooter" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Team{5}_Selenium_HW2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="amazon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="amazon" />
+      <option name="MAIN_CLASS_NAME" value="amazon.TestHomePage" />
+      <option name="METHOD_NAME" value="testAmazonMusicFooter" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Amazon" />
+        <item itemvalue="TestNG.TestHomePage.testAmazonMusicFooter" />
+        <item itemvalue="TestNG.TestHomePage.TestAmazonHome" />
+        <item itemvalue="TestNG.TestHomePage.TestFindAGift" />
+        <item itemvalue="TestNG.TestHomePage.TestDropDown" />
+        <item itemvalue="TestNG.TestHomePage.LanguageButton" />
       </list>
     </recent_temporary>
   </component>
