@@ -1,15 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1ff830e8-5fda-49b6-b940-761d09e8882d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/drivers/mac/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/drivers/windows/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/amazon/BaseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/amazon/TestHomeWorkAmazon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Team{5}_Selenium_HW2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Team{5}_Selenium_HW2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Team{5}_Selenium_HW2/homework/Amazon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/amazon/TestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/amazon/TestHomePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +39,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1qVU6rXt7avSb6yxvVsKC36nUkh" />
@@ -35,7 +55,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/drivers/windows" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -50,9 +71,8 @@
       <recent name="$PROJECT_DIR$/.idea/resources/drivers/mac" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Amazon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.Amazon" />
+  <component name="RunManager" selected="TestNG.TestHomePage.testSeeAllFactNextAndPrivButton">
+    <configuration name="TestHomePage.testAboutAmazonPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Team{5}_Selenium_HW2" />
       <extension name="coverage">
         <pattern>
@@ -60,17 +80,102 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="amazon" />
+      <option name="MAIN_CLASS_NAME" value="amazon.TestHomePage" />
+      <option name="METHOD_NAME" value="testAboutAmazonPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHomePage.testAboutAmazonTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Team{5}_Selenium_HW2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="amazon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="amazon" />
+      <option name="MAIN_CLASS_NAME" value="amazon.TestHomePage" />
+      <option name="METHOD_NAME" value="testAboutAmazonTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHomePage.testSeeAllFactButton" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Team{5}_Selenium_HW2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="amazon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="amazon" />
+      <option name="MAIN_CLASS_NAME" value="amazon.TestHomePage" />
+      <option name="METHOD_NAME" value="testSeeAllFactButton" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHomePage.testSeeAllFactIcon" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Team{5}_Selenium_HW2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="amazon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="amazon" />
+      <option name="MAIN_CLASS_NAME" value="amazon.TestHomePage" />
+      <option name="METHOD_NAME" value="testSeeAllFactIcon" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHomePage.testSeeAllFactNextAndPrivButton" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Team{5}_Selenium_HW2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="amazon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="amazon" />
+      <option name="MAIN_CLASS_NAME" value="amazon.TestHomePage" />
+      <option name="METHOD_NAME" value="testSeeAllFactNextAndPrivButton" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Amazon" />
+        <item itemvalue="TestNG.TestHomePage.testSeeAllFactNextAndPrivButton" />
+        <item itemvalue="TestNG.TestHomePage.testSeeAllFactButton" />
+        <item itemvalue="TestNG.TestHomePage.testSeeAllFactIcon" />
+        <item itemvalue="TestNG.TestHomePage.testAboutAmazonTitle" />
+        <item itemvalue="TestNG.TestHomePage.testAboutAmazonPage" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1ff830e8-5fda-49b6-b940-761d09e8882d" name="Default Changelist" comment="" />
@@ -92,5 +197,40 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="720" y="319" key="DetectedRootsChooserDialog" timestamp="1617171828667">
+      <screen x="0" y="23" width="1536" height="873" />
+    </state>
+    <state x="720" y="319" key="DetectedRootsChooserDialog/0.23.1536.873@0.23.1536.873" timestamp="1617171828667" />
+    <state width="1494" height="265" key="GridCell.Tab.0.bottom" timestamp="1617212486650">
+      <screen x="0" y="23" width="1536" height="873" />
+    </state>
+    <state width="1494" height="265" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1617211674860" />
+    <state width="1494" height="265" key="GridCell.Tab.0.bottom/0.23.1536.873@0.23.1536.873" timestamp="1617212486650" />
+    <state width="834" height="265" key="GridCell.Tab.0.bottom/0.23.1536.874@0.23.1536.874" timestamp="1617178519234" />
+    <state width="1494" height="265" key="GridCell.Tab.0.center" timestamp="1617212486649">
+      <screen x="0" y="23" width="1536" height="873" />
+    </state>
+    <state width="1494" height="265" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1617211674859" />
+    <state width="1494" height="265" key="GridCell.Tab.0.center/0.23.1536.873@0.23.1536.873" timestamp="1617212486649" />
+    <state width="834" height="265" key="GridCell.Tab.0.center/0.23.1536.874@0.23.1536.874" timestamp="1617178519233" />
+    <state width="1494" height="265" key="GridCell.Tab.0.left" timestamp="1617212486648">
+      <screen x="0" y="23" width="1536" height="873" />
+    </state>
+    <state width="1494" height="265" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1617211674858" />
+    <state width="1494" height="265" key="GridCell.Tab.0.left/0.23.1536.873@0.23.1536.873" timestamp="1617212486648" />
+    <state width="834" height="265" key="GridCell.Tab.0.left/0.23.1536.874@0.23.1536.874" timestamp="1617178519233" />
+    <state width="1494" height="265" key="GridCell.Tab.0.right" timestamp="1617212486649">
+      <screen x="0" y="23" width="1536" height="873" />
+    </state>
+    <state width="1494" height="265" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1617211674860" />
+    <state width="1494" height="265" key="GridCell.Tab.0.right/0.23.1536.873@0.23.1536.873" timestamp="1617212486649" />
+    <state width="834" height="265" key="GridCell.Tab.0.right/0.23.1536.874@0.23.1536.874" timestamp="1617178519234" />
+    <state x="442" y="23" key="SettingsEditor" timestamp="1617175961706">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="442" y="23" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1617175961706" />
+    <state x="442" y="23" key="SettingsEditor/0.23.1536.873@0.23.1536.873" timestamp="1617171834721" />
   </component>
 </project>
