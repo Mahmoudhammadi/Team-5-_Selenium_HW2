@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ff830e8-5fda-49b6-b940-761d09e8882d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/drivers/mac/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/drivers/windows/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/amazon/BaseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/amazon/TestHomeWorkAmazon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Team{5}_Selenium_HW2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Team{5}_Selenium_HW2.iml" afterDir="false" />
     </list>
@@ -35,7 +29,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/drivers/windows" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WDE_Core_Selenium_2021/lib/selenium-java-3.141.59/libs/byte-buddy-1.8.15.jar" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
